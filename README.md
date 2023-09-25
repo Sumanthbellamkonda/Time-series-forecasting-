@@ -60,6 +60,8 @@ from sklearn.metrics import mean_absolute_error
 actual_values = hospital_data['y']
 predicted_values = forecast['yhat'][:-365]  # Exclude the forecasted future values
 
+![visit analysis](https://github.com/Sumanthbellamkonda/Time-series-forecasting-/assets/112408615/4eb962a9-4ea2-40e2-92d1-a33401ec56b7)
+
 mae = mean_absolute_error(actual_values, predicted_values)
 print(f'Mean Absolute Error: {mae}')
 Step 8: Deployment
