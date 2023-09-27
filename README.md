@@ -1,4 +1,6 @@
  Time series forecasting in the context of doctor visit analysis using data science involves applying various data science techniques to historical doctor visit data to make accurate predictions about future visits. Here is a step-by-step guide on how to perform time series forecasting for doctor visit analysis using data science:
+ 
+<img width="730" alt="img123" src="https://github.com/Sumanthbellamkonda/Time-series-forecasting-/assets/112408615/664e21f4-e711-4d37-9a38-9d363fbd529b">
 
 1. Data Collection:
 
@@ -46,5 +48,5 @@ Once the model is trained and validated, use it to make future predictions. Gene
 - Address ethical and privacy concerns related to healthcare data, ensuring compliance with relevant regulations and safeguards for patient information.
 
 By following these steps and leveraging data science techniques, you can develop a robust time series forecasting model for doctor visit analysis that provides actionable insights for healthcare providers, administrators, and policymakers.
-![visit analysis](https://github.com/Sumanthbellamkonda/Time-series-forecasting-/assets/112408615/9f6c9afe-e73c-4606-b13b-0494d4c77c39)
+
 
