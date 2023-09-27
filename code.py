@@ -53,29 +53,29 @@
 <body>
     <h1>Time Series Forecasting</h1>
     <label for="jan">January : </label>
-    <input type="text" id="jan" placeholder="enter"><br><br>
+    <input type="text" id="jan" placeholder="input"><br><br>
     <label for="feb">February:</label>
-    <input type="text" id="feb" placeholder="enter"><br><br>
+    <input type="text" id="feb" placeholder="input"><br><br>
     <label for="mar">March:</label>
-    <input type="text" id="mar" placeholder="enter"><br><br>
+    <input type="text" id="mar" placeholder="input"><br><br>
     <label for="apr">April:</label>
-    <input type="text" id="apr" placeholder="enter"><br><br>
+    <input type="text" id="apr" placeholder="input"><br><br>
     <label for="may">May:</label>
-    <input type="text" id="may" placeholder="enter"><br><br>
+    <input type="text" id="may" placeholder="input"><br><br>
     <label for="jun">June:</label>
-    <input type="text" id="jun" placeholder="enter"><br><br>
+    <input type="text" id="jun" placeholder="input"><br><br>
     <label for="jul">July:</label>
-    <input type="text" id="jul" placeholder="enter"><br><br>
+    <input type="text" id="jul" placeholder="input"><br><br>
     <label for="aug">August:</label>
-    <input type="text" id="aug" placeholder="enter"><br><br>
+    <input type="text" id="aug" placeholder="input"><br><br>
     <label for="sep">September:</label>
-    <input type="text" id="sep" placeholder="enter"><br><br>
+    <input type="text" id="sep" placeholder="input"><br><br>
     <label for="oct">Octomber:</label>
-    <input type="text" id="oct" placeholder="enter"><br><br>
+    <input type="text" id="oct" placeholder="input"><br><br>
     <label for="nov">November:</label>
-    <input type="text" id="nov" placeholder="enter"><br><br>
+    <input type="text" id="nov" placeholder="input"><br><br>
     <label for="dec">December:</label>
-    <input type="text" id="dec" placeholder="enter"><br><br>
+    <input type="text" id="dec" placeholder="input"><br><br>
     <label for="data">Time Series Data (Total):</label>
     <input type="text" id="data" placeholder="12-months"><br><br>
     <button onclick="forecast()">Forecast</button><br><br>
