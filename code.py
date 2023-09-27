@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+<title>WELCOME TO TIME SERIES FORECASTING </title>
+<head>
+</head>
+<body>
+<h1>WELCOME TO TIME SERIES FORECASTING </h1>
+<div>Enter your monthly sales</div>
+<div>Get your year forecasting</div>
+</body>
+</html><!DOCTYPE html>
+<html>
 <head>
     <title>Time Series Forecasting</title>
     <script type="text/javascript">
