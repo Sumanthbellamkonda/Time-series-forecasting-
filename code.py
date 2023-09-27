@@ -5,9 +5,18 @@
     <script type="text/javascript">
         function forecast() {
             // Get user input
-            var alpha = parseFloat(document.getElementById('alpha').value);
-            var beta = parseFloat(document.getElementById('beta').value);
-            var gamma = parseFloat(document.getElementById('gamma').value);
+            var Jan = parseFloat(document.getElementById('Jan').value);
+            var feb = parseFloat(document.getElementById('feb').value);
+            var mar = parseFloat(document.getElementById('mar').value);
+            var apr = parseFloat(document.getElementById('apr').value);
+            var may = parseFloat(document.getElementById('may').value);
+            var jun = parseFloat(document.getElementById('jun').value);
+            var jul = parseFloat(document.getElementById('jul').value);
+            var aug = parseFloat(document.getElementById('aug').value);
+            var sep = parseFloat(document.getElementById('sep').value);
+            var oct = parseFloat(document.getElementById('oct').value);
+            var nov = parseFloat(document.getElementById('nov').value);
+            var dec = parseFloat(document.getElementById('dec').value);
             var data = document.getElementById('data').value.split(',').map(parseFloat);
 
             // Send input to the server for forecasting
@@ -33,32 +42,32 @@
 </head>
 <body>
     <h1>Time Series Forecasting</h1>
-    <label for="alpha">January : </label>
-    <input type="text" id="alpha" placeholder="0.2"><br><br>
-    <label for="beta">February:</label>
-    <input type="text" id="beta" placeholder="0.2"><br><br>
-    <label for="gamma">March:</label>
-    <input type="text" id="gamma" placeholder="0.2"><br><br>
-    <label for="alpha">April:</label>
-    <input type="text" id="alpha" placeholder="0.2"><br><br>
-    <label for="beta">May:</label>
-    <input type="text" id="beta" placeholder="0.2"><br><br>
-    <label for="gamma">June:</label>
-    <input type="text" id="gamma" placeholder="0.2"><br><br>
-    <label for="alpha">July:</label>
-    <input type="text" id="alpha" placeholder="0.2"><br><br>
-    <label for="beta">August:</label>
-    <input type="text" id="beta" placeholder="0.2"><br><br>
-    <label for="gamma">September:</label>
-    <input type="text" id="gamma" placeholder="0.2"><br><br>
-    <label for="alpha">Octomber:</label>
-    <input type="text" id="alpha" placeholder="0.2"><br><br>
-    <label for="beta">November:</label>
-    <input type="text" id="beta" placeholder="0.2"><br><br>
-    <label for="gamma">December:</label>
-    <input type="text" id="gamma" placeholder="0.2"><br><br>
-    <label for="data">Time Series Data (comma-separated):</label>
-    <input type="text" id="data" placeholder="1,2,3,4,5"><br><br>
+    <label for="jan">January : </label>
+    <input type="text" id="jan" placeholder="enter"><br><br>
+    <label for="feb">February:</label>
+    <input type="text" id="feb" placeholder="enter"><br><br>
+    <label for="mar">March:</label>
+    <input type="text" id="mar" placeholder="enter"><br><br>
+    <label for="apr">April:</label>
+    <input type="text" id="apr" placeholder="enter"><br><br>
+    <label for="may">May:</label>
+    <input type="text" id="may" placeholder="enter"><br><br>
+    <label for="jun">June:</label>
+    <input type="text" id="jun" placeholder="enter"><br><br>
+    <label for="jul">July:</label>
+    <input type="text" id="jul" placeholder="enter"><br><br>
+    <label for="aug">August:</label>
+    <input type="text" id="aug" placeholder="enter"><br><br>
+    <label for="sep">September:</label>
+    <input type="text" id="sep" placeholder="enter"><br><br>
+    <label for="oct">Octomber:</label>
+    <input type="text" id="oct" placeholder="enter"><br><br>
+    <label for="nov">November:</label>
+    <input type="text" id="nov" placeholder="enter"><br><br>
+    <label for="dec">December:</label>
+    <input type="text" id="dec" placeholder="enter"><br><br>
+    <label for="data">Time Series Data (Total):</label>
+    <input type="text" id="data" placeholder="12-months"><br><br>
     <button onclick="forecast()">Forecast</button><br><br>
     <div id="forecasted"></div>
 </body>
